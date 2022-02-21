@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: gray;
+  color: white;
+  padding: 20px 10px;
+}
+.navbar ul {
+  color: white;
+  list-style: none;
+  justify-content: space-between;
+  text-emphasis: center;
+}
+.navbar ul li {
+  display: inline-block;
+  justify-content: space-between;
+  color: white;
+  padding: 2px 8px;
+  text-decoration: none;
+}
+.navbar ul li:hover {
+  background-color: black;
+}
+.home {
+  background-color: cyan;
+}
+.about {
+  background-color: lightsalmon;
+  height: 100vh;
+}
+.login {
+  padding: 30px 2px;
+  background-color: magenta;
+  text-align: center;
+}
+.postLayout {
+  border: 2px solid black;
+  padding: 20px 10px;
+}
+.postLayout h1 {
+  font-weight: 500;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.postLayout p {
+  margin: 10px 0px;
+  font-size: 15px;
+}
+.postLayout button {
+  color: blanchedalmond;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 7px 16px;
+  cursor: pointer;
+}
+.postLayout button:hover {
+  color: black;
+  background-color: whitesmoke;
+}
+/* singlePostLayout */
+
+.singlePostLayout {
+  border: 10px solid blue;
+  padding: 20px 10px;
+}
+.singlePostLayout h1 {
+  font-weight: 700;
+  font-family: roboto;
+  font-size: 30px;
+}
+.singlePostLayout p {
+  margin: 10px 0px;
+  font-size: 20px;
+  font-family: roboto;
+}
+.singlePostLayout button {
+  color: blanchedalmond;
+  background-color: darkcyan;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 7px 16px;
+  cursor: pointer;
+  margin: 30px 30px 0 0;
+}
+
+.singlePostLayout button:hover {
+  color: black;
+  background-color: whitesmoke;
+}
+.goBack {
+  font-size: 30px;
+  /* position: fixed; */
+  position: fixed;
+  top: 50%;
+  right: 1%;
+  background-color: greenyellow;
+  color: red;
+  transform: translateY(-50%);
+  transition: all 0.3s;
+  cursor: pointer;
+  padding: 0 8px;
+  border-radius: 8px;
+}
+.goBack:hover {
+  right: 2%;
+}
+.welcome {
+  background-color: violet;
+  font-family: roboto;
+  font-size: 15px;
+  padding: 30px 20px;
+  text-align: center;
+}
+.welcome a {
+  font-size: 27px;
+  text-decoration: none;
+  transition: all ease 0.3s;
+}
+.welcome a:hover {
+  color: darkmagenta;
+}
